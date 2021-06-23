@@ -67,7 +67,7 @@ const projects = [
     // Add image in './styles/images.css' in #project3
     id: "project3",
     name: "Fitness-Tracker",
-    skills: ["HTML, CSS, JS, PWA"],
+    skills: ["HTML, CSS, JS"],
     url: "https://afternoon-escarpment-85989.herokuapp.com/?id=60be7a89456ef3001545b8c8",
   },
 ];
