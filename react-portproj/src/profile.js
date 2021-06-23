@@ -14,7 +14,6 @@ const background = {
   // Options: Snow or Particle
   type: "Snow",
 };
-// To update your image, go to './styles/images.css'
 const section2title = "About Me";
 const about = {
   paragraph:
@@ -57,14 +56,12 @@ const projects = [
     url: "https://thereal-baitjet.github.io/bet-fullstack/",
   },
   {
-    // Add image in './styles/images.css' in #project2
     id: "project2",
     name: "Flavor-Saver",
     skills: ["HTML, CSS, JS, Handlebars, MVC"],
     url: "https://tranquil-sea-86100.herokuapp.com/",
   },
   {
-    // Add image in './styles/images.css' in #project3
     id: "project3",
     name: "Fitness-Tracker",
     skills: ["HTML, CSS, JS"],
