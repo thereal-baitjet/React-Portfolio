@@ -8,7 +8,7 @@ const animation = {
   once: false,
 };
 const header = {
-  name: "Hi my name is Juan Santos",
+  name: "Juan Santos",
 };
 const background = {
   // Options: Snow or Particle
@@ -42,6 +42,10 @@ const skillsBar = [
     faClass: "fas fa-database",
   },
   {
+    name: "React",
+    faClass: "fab fa-react",
+  },
+  {
     name: "AWS",
     faClass: "fab fa-aws",
   },
@@ -67,18 +71,37 @@ const projects = [
     skills: ["HTML, CSS, JS"],
     url: "https://afternoon-escarpment-85989.herokuapp.com/?id=60be7a89456ef3001545b8c8",
   },
+  {
+    // Add image in './styles/images.css' in #project1
+    id: "project1",
+    name: "Bet-Fullstack",
+    skills: ["HTML, CSS, JS"],
+    url: "https://thereal-baitjet.github.io/bet-fullstack/",
+  },
+  {
+    id: "project2",
+    name: "Flavor-Saver",
+    skills: ["HTML, CSS, JS, Handlebars, MVC"],
+    url: "https://tranquil-sea-86100.herokuapp.com/",
+  },
+  {
+    id: "project3",
+    name: "Fitness-Tracker",
+    skills: ["HTML, CSS, JS"],
+    url: "https://afternoon-escarpment-85989.herokuapp.com/?id=60be7a89456ef3001545b8c8",
+  },
 ];
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
     "self starting developer, looking for work, serious inquiries only please.",
-  copyright: "Juann Santos",
+  copyright: "Juan Santos",
   contactUrl: "https://form.jotform.com/211735847673061",
 };
 const social = {
   github: "https://github.com/thereal-baitjet",
   facebook: "https://www.facebook.com/profile.php?id=100045506024542",
-  linkedin: "www.linkedin.com/in/juanga-santos",
+  linkedin: "https://www.linkedin.com/in/juanga-santos",
   instagram: "https://instagram.com/baitjet",
   resume: "https://docs.google.com/document/d/1rrljrbpKE2TOUa-qmgnSLhVUdvxXC6gZsEReA-LjKWQ/edit?usp=sharing",
 };
