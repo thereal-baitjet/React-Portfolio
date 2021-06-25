@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderButton from '../layouts/HeaderButton'
+import HeaderButton2 from '../layouts/HeaderButton2'
 import { header } from '../../profile'
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
     const toggleDarkMode = (e) =>  {
         document.documentElement.classList.toggle('dark-mode')
         document.getElementById('not-dark').classList.toggle('inverse-dark')
-        document.getElementById('not-dark2').classList.toggle('inverse-dark')
+        //document.getElementById('not-dark2').classList.toggle('inverse-dark')
         var x = document.getElementsByClassName('img-pro')
         for(let i = 0; i < x.length; i += 1) {
             x.item(i).classList.toggle("inverse-dark");
@@ -38,6 +39,7 @@ const Header = () => {
             </label>
             <HeaderButton/>
             </div>
+            <HeaderButton2/>
             <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="profile.png"></img>
         </div>
     )

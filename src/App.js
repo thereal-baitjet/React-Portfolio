@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Particles from "./components/layouts/Particles";
 import Header from "./components/section/Header";
 import About from "./components/section/About";
@@ -7,6 +8,7 @@ import Contact from "./components/section/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { animation } from "./profile";
+
 
 function App() {
   useEffect(() => {
@@ -20,11 +22,13 @@ function App() {
 
   return (
     <div className="App">
+      <Router>
       <Header />
       <Particles />
-      <About />
-      <Works />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/works" component={Works} />
       <Contact />
+      </Router>
     </div>
   );
 }
